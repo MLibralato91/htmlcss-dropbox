@@ -99,7 +99,7 @@ main{
 #jumbotron{
     background-color: var(--bg-lightblue);
     padding-top: 50px;
-    height: 680px;
+
 }
 #trial{
     background-color: var(--bg-lightblue);
@@ -110,7 +110,7 @@ h1{
     font-weight: 900;
 }
 h2{
-
+    font-size: 2rem;
 }
 h3{
 
@@ -126,9 +126,11 @@ h3{
 }
 .jumbo-img{
     width: 70%;
+    position: relative;
 }
 .jumbo-img img{
     max-width: 90%;
+    position: absolute;
 }
 .jumbo-text p{
     padding-bottom: 40px;
