@@ -37,14 +37,40 @@ body{
     margin: 0 auto;
 }
 
+li{
+    list-style: none;
+}
+.debug{
+    border: 1px solid black;
+}
 /* Header */
 
+header{
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    z-index: 1000;
+    background-color: var(--primary-color);
+    
+}
 /*  */
 
 /* Main */
-
+main{
+    padding-top: 75px;
+}
+#jumbotron{
+    background-color: var(--bg-lightblue);
+}
+#trial{
+    background-color: var(--bg-lightblue);
+}
 /*  */
 
 /* Footer */
+footer{
+    background-color: var(--black-color);
+    color: var(--primary-color);
+}
 
 /*  */
