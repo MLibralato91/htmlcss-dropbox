@@ -58,7 +58,9 @@ i{
     justify-content: space-between;
     align-items: center;
 }
-
+.d-stretch{
+    align-items: stretch;
+}
 .button-login{
     padding: 2px 10px;
 }
@@ -153,7 +155,11 @@ h5{
 .choose-plan{
     padding-top: 100px;
 }
-
+.card-checkbox{
+    padding: 40px 0;
+    gap: 30px;
+    
+}
 .card{
     border: 2px solid var(--grey-cards);
     width: calc(100% / 3);
