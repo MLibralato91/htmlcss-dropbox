@@ -6,12 +6,45 @@
     box-sizing: border-box;
 }
 
-:root{
-    
-}
 
+:root{
+    --primary-color: #ffffff ;
+    --bg-lightblue:#b4d0e7 ;
+    --btn-blue:#0061ff ;
+    --black-color:#000000 ;
+    --lightgrey-color:#fbfbfb ;
+    --lightgreen-box:#a2d39b ;
+    --blue-box:#0093ce ;
+    --red-box:#ff1c1c ;
+    --blach-cherry-box:#61082b ;
+    --cherry-box:#d5001f ;
+    --dark-blue-box:#0d2481 ;
+    --banana-box:#ffd830 ;
+    --lightgrey-box:#f5f5f5 ;
+    
+
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
 
+.container-small{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+/*  */
+
+/* Main */
+
+/*  */
+
+/* Footer */
+
+/*  */
