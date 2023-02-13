@@ -44,8 +44,8 @@ li{
 a{
     text-decoration: none;
 }
-.debug{
-    border: 1px solid black;
+i{
+    padding-right: 8px;
 }
 
 .mg-bottom{
@@ -167,11 +167,15 @@ h5{
 }
 
 .body-card li{
-    padding: 5px 0;
+    padding: 10px 0;
 }
 .border{
     padding-bottom: 40px;
     border-bottom: 2px solid var(--grey-cards);
+}
+.space-card a{
+    text-decoration:underline;
+    color: var(--blue-box);
 }
 .space-card{
     padding-top: 40px;
@@ -184,7 +188,15 @@ h5{
     border-bottom: 2px solid var(--grey-cards);
     padding: 5px 0;
 }
+.true-green{
+    font-weight: bold;
+    color: var(--btn-blue);
+    font-size: 1.2rem;
+}
 
+.inline{
+    display: flex;
+}
 /*  */
 
 /* Footer */
