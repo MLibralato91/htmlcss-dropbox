@@ -21,6 +21,7 @@
     --dark-blue-box:#0d2481 ;
     --banana-box:#ffd830 ;
     --lightgrey-box:#f5f5f5 ;
+    --grey-cards:#d0d0d3;
     
 
 }
@@ -115,6 +116,14 @@ h2{
 h3{
 
 }
+h4{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+h5{
+    font-size: 1rem;
+    padding-top: 80px;
+}
 .jumbo-body{
     align-items: flex-start;
 }
@@ -146,14 +155,36 @@ h3{
 }
 
 .card{
-    border: 2px solid grey;
+    border: 2px solid var(--grey-cards);
     width: calc(100% / 3);
-    padding: 10px;
+
+}
+.body-card{
+    padding: 35px 30px;
+}
+.body-card ul{
+    padding: 40px 0;
 }
 
+.body-card li{
+    padding: 5px 0;
+}
+.border{
+    padding-bottom: 40px;
+    border-bottom: 2px solid var(--grey-cards);
+}
+.space-card{
+    padding-top: 40px;
+}
 .cards-container{
     gap: 50px;
 }
+.title-card{
+    text-align: center;
+    border-bottom: 2px solid var(--grey-cards);
+    padding: 5px 0;
+}
+
 /*  */
 
 /* Footer */
