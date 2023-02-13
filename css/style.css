@@ -144,6 +144,16 @@ h3{
 .choose-plan{
     padding-top: 100px;
 }
+
+.card{
+    border: 2px solid grey;
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.cards-container{
+    gap: 50px;
+}
 /*  */
 
 /* Footer */
