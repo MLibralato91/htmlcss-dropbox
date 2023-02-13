@@ -126,6 +126,9 @@ h5{
     font-size: 1rem;
     padding-top: 80px;
 }
+.grey{
+    color: var(--grey-cards);
+}
 .jumbo-body{
     align-items: flex-start;
 }
@@ -187,7 +190,7 @@ h5{
     padding-top: 40px;
 }
 .cards-container{
-    gap: 50px;
+    gap: 40px;
 }
 .title-card{
     text-align: center;
