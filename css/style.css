@@ -43,6 +43,10 @@ li{
 .debug{
     border: 1px solid black;
 }
+
+.mg-bottom{
+    margin-bottom: 80px;
+}
 /* Header */
 
 header{
