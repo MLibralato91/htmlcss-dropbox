@@ -67,7 +67,7 @@ i{
     align-items: stretch;
 }
 .button-login{
-    padding: 2px 10px;
+    padding: 6px 12px;
 }
 .button{
     padding: 8px 20px;
@@ -191,6 +191,7 @@ h5{
 .body-card li{
     padding: 10px 0;
 }
+
 .border{
     padding-bottom: 40px;
     border-bottom: 2px solid var(--grey-cards);
