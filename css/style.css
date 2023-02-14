@@ -270,6 +270,18 @@ h5{
     gap: 75px;
     padding-top: 50px;
 }
+
+/* Clients class */
+
+.wrapped-teams h2{
+    width: 50%;
+    padding-bottom: 50px;
+}
+.wrapped-teams a{
+    text-decoration: underline;
+    color: var(--btn-blue);
+}
+
 /*  */
 
 /* Footer */
