@@ -366,6 +366,17 @@ h5{
     width: 45%;
 }
 
+/* Faq sectioon */
+
+.list-faq h2{
+    padding-bottom: 50px;
+}
+.questions{
+    padding: 30px 5px;
+}
+.questions span{
+    font-weight: bold;
+}
 /*  */
 
 /* Footer */
