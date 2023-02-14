@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -46,6 +47,7 @@ a{
 }
 i{
     padding-right: 8px;
+    color: var(--black-color);
 }
 
 .mg-bottom{
@@ -78,6 +80,7 @@ i{
     background-color: var(--lightgrey-box);
     border: 2px solid var(--black-color);   
 }
+
 /* Header */
 
 header{
@@ -96,6 +99,7 @@ header{
     justify-content: space-around;
 }
 .bar-client{
+    height: 60px;
     width: 30%;
     justify-content: space-around;
 
@@ -296,6 +300,7 @@ h5{
 }
 .square img{
     width: 100%;
+    filter: invert(100%);
 }
 .central-square{
     height: 100%;
@@ -407,3 +412,17 @@ footer{
     color: grey;
 }
 /*  */
+
+/* Hover */
+
+.home a{
+    padding: 20px 0;
+}
+.brd-black{
+    padding: 20px 0;
+}
+.brd-black:hover{
+    border-bottom: 4px solid black;
+    background-color: var(--lightgrey-color);
+
+}
