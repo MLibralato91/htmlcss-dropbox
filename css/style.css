@@ -282,6 +282,25 @@ h5{
     color: var(--btn-blue);
 }
 
+/* Logo Section */
+
+
+.logo-box{
+    border: 2px solid black;
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+
+
+}
+.square{
+    width:50%;
+    height: 50%;    
+
+}
+.flex-square{
+    display: flex;
+    flex-flow: row wrap;;
+}
 /*  */
 
 /* Footer */
