@@ -383,7 +383,7 @@ footer{
     color: var(--primary-color);
 }
 .link{
-    padding-top: 60px;
+    padding: 60px 0;
 }
 .list-link h3{
     padding-bottom: 20px;
@@ -395,5 +395,15 @@ footer{
 .list-link a{
     color: var(--primary-color);
 }
-
+.choose-leng{
+    border-top: 2px solid var(--primary-color);
+    width: 10%;
+    padding: 60px 0;
+}
+.choose-leng span{
+    color: grey;
+}
+.choose-leng i{
+    color: grey;
+}
 /*  */
