@@ -316,6 +316,33 @@ h5{
 .text-central{
     padding-top: 50px;
 }
+
+    /* Logos background */
+.lightgreen-box{
+    background-color: var(--lightgreen-box);
+}
+.blue-box{
+    background-color: var(--blue-box);
+}
+.red-box{
+    background-color: var(--red-box)
+}
+.black-cherry-box{
+    background-color: var(--blach-cherry-box);
+}
+.cherry-box{
+    background-color: var(--cherry-box);
+}
+.dark-blue-box{
+    background-color: var(--dark-blue-box);
+}
+.banana-box{
+    background-color: var(--banana-box);
+}
+.lightgrey-box{
+    background-color: var(--lightgrey-box);
+}
+    
 /*  */
 
 /* Footer */
