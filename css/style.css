@@ -58,6 +58,9 @@ i{
     justify-content: space-between;
     align-items: center;
 }
+.inline{
+    display: flex;
+}
 .d-stretch{
     align-items: stretch;
 }
@@ -70,6 +73,10 @@ i{
 .btn-blue{
     background-color: var(--btn-blue);
     color: var(--primary-color);
+}
+.btn-white{
+    background-color: var(--lightgrey-box);
+    border: 2px solid var(--black-color);   
 }
 /* Header */
 
@@ -129,6 +136,9 @@ h5{
 .grey{
     color: var(--grey-cards);
 }
+
+/* Jumbo class */
+
 .jumbo-body{
     align-items: flex-start;
 }
@@ -155,6 +165,9 @@ h5{
 .jumbo-text i{
     font-size: 3rem;
 }
+
+/* Plans class */
+
 .choose-plan{
     padding-top: 100px;
     padding-bottom: 40px;
@@ -162,12 +175,10 @@ h5{
 .card-checkbox{
     padding: 40px 0;
     gap: 30px;
-    
 }
 .card{
     border: 2px solid var(--grey-cards);
     width: calc(100% / 3);
-
 }
 .body-card{
     padding: 35px 30px;
@@ -204,15 +215,13 @@ h5{
     font-size: 1.2rem;
 }
 
-.inline{
-    display: flex;
-}
-.enterprise{
-    border: 2px solid var(--grey-cards);
-}
 
 .body-card{
     justify-content: space-between;
+}
+/* End cards - Start Enterprise */
+.enterprise{
+    border: 2px solid var(--grey-cards);
 }
 .text-body{
     width: 70%;
@@ -225,6 +234,21 @@ h5{
 }
 .text-body p{
     padding-top: 50px;
+}
+
+/* Parners class */
+.img-partners img{
+    width: 100%;
+}
+.img-partners{
+    width: 65%;
+}
+.text-partners{
+    width: 35%;
+    padding:50px;
+}
+.text-partners h3,p{
+    padding-bottom: 2rem;
 }
 /*  */
 
