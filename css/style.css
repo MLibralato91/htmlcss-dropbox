@@ -282,15 +282,12 @@ h5{
     color: var(--btn-blue);
 }
 
-/* Logo Section */
+/* Logos Section */
 
 
 .logo-box{
-    border: 2px solid black;
     width: calc(100% / 3);
     height: calc(100vw / 3);
-
-
 }
 .square{
     width:50%;
@@ -303,6 +300,11 @@ h5{
 .square img{
     width: 100%;
 }
+.central-square img{
+    padding-bottom: 50px;
+    border-bottom: 2px solid var(--grey-cards);
+    width: 40%;
+}
 .square a{
     width: 50%;
 }
@@ -310,6 +312,9 @@ h5{
 .flex-square{
     display: flex;
     flex-flow: row wrap;;
+}
+.text-central{
+    padding-top: 50px;
 }
 /*  */
 
