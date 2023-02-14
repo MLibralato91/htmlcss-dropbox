@@ -300,6 +300,10 @@ h5{
 .square img{
     width: 100%;
 }
+.central-square{
+    height: 100%;
+    padding: 50px;
+}
 .central-square img{
     padding-bottom: 50px;
     border-bottom: 2px solid var(--grey-cards);
@@ -342,7 +346,9 @@ h5{
 .lightgrey-box{
     background-color: var(--lightgrey-box);
 }
-    
+.lightblue-box{
+    background-color: var(--bg-lightblue);
+}   
 /*  */
 
 /* Footer */
