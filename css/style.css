@@ -64,9 +64,9 @@ i{
 .button-login{
     padding: 2px 10px;
 }
- .button{
+.button{
     padding: 8px 20px;
- }
+}
 .btn-blue{
     background-color: var(--btn-blue);
     color: var(--primary-color);
@@ -205,7 +205,25 @@ h5{
 
 .inline{
     display: flex;
-    
+}
+.enterprise{
+    border: 2px solid var(--grey-cards);
+}
+
+.body-card{
+    justify-content: space-between;
+}
+.text-body{
+    width: 70%;
+}
+.btn-body{
+    width: 25%;
+}
+.text-body span{
+    font-weight: bold;
+}
+.text-body p{
+    padding-top: 50px;
 }
 /*  */
 
