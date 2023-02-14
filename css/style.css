@@ -294,9 +294,19 @@ h5{
 }
 .square{
     width:50%;
-    height: 50%;    
-
+    height: 50%;   
+    display: flex; 
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
 }
+.square img{
+    width: 100%;
+}
+.square a{
+    width: 50%;
+}
+
 .flex-square{
     display: flex;
     flex-flow: row wrap;;
