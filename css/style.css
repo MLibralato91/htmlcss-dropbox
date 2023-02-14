@@ -319,6 +319,7 @@ h5{
 }
 .text-central{
     padding-top: 50px;
+    overflow: auto
 }
 
     /* Logos background */
@@ -349,6 +350,22 @@ h5{
 .lightblue-box{
     background-color: var(--bg-lightblue);
 }   
+
+/* Trial Class */
+
+.try-free h2{
+    color: var(--blach-cherry-box);
+}
+.try-free{
+    padding: 100px 0;
+    justify-content: space-between;
+    align-items: start;
+    align-content: center;
+}
+.title-trial{
+    width: 45%;
+}
+
 /*  */
 
 /* Footer */
