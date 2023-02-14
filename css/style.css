@@ -417,9 +417,11 @@ footer{
 
 .home a{
     padding: 20px 0;
+
 }
 .brd-black{
     padding: 20px 0;
+    border-bottom: 4px solid rgba(0, 0, 0, 0)
 }
 .brd-black:hover{
     border-bottom: 4px solid black;
