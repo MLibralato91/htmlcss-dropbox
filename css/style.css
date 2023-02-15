@@ -255,9 +255,7 @@ h5{
 
 /* Dropbox business section */
 
-.center-card h2{
 
-}
 .box{
     width: calc((100% / 3) - 50px);
 }
@@ -306,6 +304,7 @@ h5{
 .central-square{
     height: 100%;
     padding: 50px;
+    overflow-y: auto;
 }
 .central-square img{
     padding-bottom: 50px;
@@ -431,3 +430,10 @@ footer{
     background-color: var(--lightgrey-color);
 
 }
+.button-login:hover{
+    opacity: 0.9;
+}
+.button:hover{
+    opacity: 0.9;
+}
+
