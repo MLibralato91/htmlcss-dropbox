@@ -437,3 +437,9 @@ footer{
     opacity: 0.9;
 }
 
+.square{
+    border: 15px solid rgba(0, 0, 0, 0);
+}
+.square:hover{
+    border: 15px solid rgba(247, 244, 244, 0.3);
+}
