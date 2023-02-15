@@ -443,3 +443,7 @@ footer{
 .square:hover{
     border: 15px solid rgba(247, 244, 244, 0.3);
 }
+
+.list-link a:hover{
+    text-decoration: underline;
+}
