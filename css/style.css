@@ -434,7 +434,7 @@ footer{
     opacity: 0.9;
 }
 .button:hover{
-    opacity: 0.9;
+    box-shadow: 5px 5px 5px #888888;
 }
 
 .square{
